@@ -12,6 +12,11 @@ Many projects documented on the internet are only planning to see a very small n
 
 After writing the initial library basics, the code was put into use *without* the parity checking, to be updated later.  Fortunately, the interrupt based method for triggering the bit sequences was very reliable, even with a lot of other application code running on my Arduino.  As such, I have not felt the need to revisit this code and add the parity checking (nor to excise the rather hackish 64-bit integer manipulation) after year and nearly 4 months of reliable service.
 
+Installation
+------------
+
+Download the latest release from the [Releases Page](https://github.com/SterlingPeet/Wiegand/releases) and unzip/untar the file in your Arduino libraries folder.
+
 Similar Projects
 ----------------
 
