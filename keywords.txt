@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For Wiegand
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Wiegand	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	        KEYWORD2
+setOneIntPin    KEYWORD2
+setZeroIntPin   KEYWORD2
+attach          KEYWORD2
+available       KEYWORD2
+reset           KEYWORD2
+getCardCode     KEYWORD2
+getFacilityCode KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+WIEGAND_DEBUG              LITERAL1
+WIEGAND_DEBUG_READER_BITS  LITERAL1
+WIEGAND_WAIT_TIME          LITERAL1
+WIEGAND_MAX_BITS           LITERAL1
+
+#######################################
+# Built in variables (LITERAL2)
+#######################################
+
